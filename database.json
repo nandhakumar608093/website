@@ -1,0 +1,326 @@
+{
+  "siteConfig": {
+    "version": 5,
+    "defaultRoute": "/home",
+    "logo": "https://via.placeholder.com/120x40/3b82f6/ffffff?text=CMS+LOGO",
+    "title": "Static CMS Website",
+    "description": "A simple static website powered by a JSON-based CMS.",
+    "showLogoImage": false,
+    "cardStyle": "simple",
+    "pagination": {
+      "itemsPerPage": 12,
+      "defaultSort": "title-asc"
+    },
+    "uiLabels": {
+      "home": "Home",
+      "about": "About",
+      "tags": "Tags",
+      "collections": "Collections",
+      "search": "Search",
+      "filter": "Filter",
+      "sort": "Sort",
+      "noItems": "No items found",
+      "loadingDatabase": "Loading Database...",
+      "errorLoading": "Error Loading Data",
+      "browseByTags": "Browse by Tags",
+      "connectWithUs": "Connect With Us"
+    },
+    "footer": {
+      "content": "<p class='text-center text-gray-600 dark:text-gray-400'>&copy; 2025 Static CMS Enhanced. All rights reserved.</p>",
+      "links": [
+        { "label": "Privacy Policy", "url": "#", "target": "_blank" },
+        { "label": "Terms of Service", "url": "#", "target": "_blank" },
+        { "label": "Contact", "url": "#", "target": "_blank" }
+      ]
+    },
+    "aboutContent": "<div class='text-center space-y-6'><h2 class='text-2xl font-bold text-gray-800 dark:text-white'>Quick Update of all Trending content.</h2><p class='text-gray-600 dark:text-gray-300'>We provide the latest viral hits, exclusive photography collections, and digital art resources directly to you.</p><div class='p-4 bg-gray-50 dark:bg-slate-800 rounded-xl border border-gray-100 dark:border-slate-700 max-w-lg mx-auto'><ul class='text-left space-y-2 text-sm'><li class='flex items-center gap-2'><i class='fas fa-check text-green-500'></i> Daily Updates</li><li class='flex items-center gap-2'><i class='fas fa-check text-green-500'></i> High Resolution Downloads</li><li class='flex items-center gap-2'><i class='fas fa-check text-green-500'></i> Curated Viral Collections</li></ul></div><p class='text-sm text-gray-500 mt-4'>Stay connected with us via the social channels below.</p></div>",
+    "socialLinks": {
+      "instagram": "https://instagram.com",
+      "whatsapp": "https://whatsapp.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "email": "mailto:contact@example.com",
+      "youtube": "https://youtube.com"
+    }
+  },
+  "menu": [
+    { "label": "Home", "route": "/home" },
+    { "label": "Full Collections", "route": "/fc" },
+    { "label": "Insta Viral", "route": "/iv" },
+    { "label": "Only Fans", "route": "/of" },
+    { "label": "Tags", "route": "/tags" },
+    { "label": "About", "route": "/about" }
+  ],
+  "statusConfig": {
+    "new": { "label": "New", "color": "bg-green-500" },
+    "trending": { "label": "Trending", "color": "bg-yellow-500" },
+    "popular": { "label": "Popular", "color": "bg-red-500" },
+    "featured": { "label": "Featured", "color": "bg-purple-500" },
+    "hot": { "label": "Hot", "color": "bg-orange-500" }
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "#CC108: Amazing Mountain View",
+      "image": "https://picsum.photos/id/1018/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/1018/1200/800",
+          "https://picsum.photos/id/1015/1200/800",
+          "https://picsum.photos/id/1016/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-15"
+      },
+      "status": "trending",
+      "menu": ["home", "iv"],
+      "code": "0001",
+      "tags": ["nature", "mountains", "landscape", "morning"]
+    },
+    {
+      "id": 2,
+      "title": "Ocean Sunset Moon",
+      "image": "https://picsum.photos/id/10/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/10/1200/800",
+          "https://picsum.photos/id/11/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-14"
+      },
+      "status": "popular",
+      "menu": ["home", "fc"],
+      "code": "0002",
+      "tags": ["ocean", "sunset", "water", "calm"]
+    },
+    {
+      "id": 3,
+      "title": "Forest Pathway",
+      "image": "https://picsum.photos/id/15/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/15/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-13"
+      },
+      "status": "new",
+      "menu": ["home", "of"],
+      "code": "0003",
+      "tags": ["forest", "trees", "path", "nature"]
+    },
+    {
+      "id": 4,
+      "title": "City Lights",
+      "image": "https://picsum.photos/id/122/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/122/1200/800",
+          "https://picsum.photos/id/123/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-12"
+      },
+      "status": "featured",
+      "menu": ["home", "iv"],
+      "code": "0004",
+      "tags": ["city", "urban", "night", "lights"]
+    },
+    {
+      "id": 5,
+      "title": "Mirror Lake Reflection",
+      "image": "https://picsum.photos/id/28/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/28/1200/800",
+          "https://picsum.photos/id/29/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-11"
+      },
+      "menu": ["home", "iv"],
+      "code": "0005",
+      "tags": ["lake", "reflection", "mountains", "blue"]
+    },
+    {
+      "id": 6,
+      "title": "Historic Bridge",
+      "image": "https://picsum.photos/id/84/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/84/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-10"
+      },
+      "status": "hot",
+      "menu": ["home", "iv"],
+      "code": "0006",
+      "tags": ["bridge", "architecture", "history", "travel"]
+    },
+    {
+      "id": 7,
+      "title": "Desert Waves",
+      "image": "https://picsum.photos/id/48/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/48/1200/800",
+          "https://picsum.photos/id/49/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-09"
+      },
+      "status": "new",
+      "menu": ["home", "iv"],
+      "code": "0007",
+      "tags": ["desert", "sand", "nature", "hot"]
+    },
+    {
+      "id": 8,
+      "title": "Hidden Waterfall",
+      "image": "https://picsum.photos/id/55/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/55/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-08"
+      },
+      "status": "trending",
+      "menu": ["home", "iv"],
+      "code": "0008",
+      "tags": ["waterfall", "jungle", "green", "water"]
+    },
+    {
+      "id": 9,
+      "title": "Winter Wonderland",
+      "image": "https://picsum.photos/id/60/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/60/1200/800",
+          "https://picsum.photos/id/61/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-07"
+      },
+      "status": "hot",
+      "menu": ["home", "iv"],
+      "code": "0009",
+      "tags": ["snow", "winter", "cold", "white"]
+    },
+    {
+      "id": 10,
+      "title": "Serene Beach",
+      "image": "https://picsum.photos/id/64/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/64/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-06"
+      },
+      "status": "featured",
+      "menu": ["home", "iv"],
+      "code": "0010",
+      "tags": ["beach", "sand", "ocean", "relax"]
+    },
+    {
+      "id": 11,
+      "title": "Endless Road Trip",
+      "image": "https://picsum.photos/id/70/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/70/1200/800",
+          "https://picsum.photos/id/71/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-05"
+      },
+      "status": "new",
+      "menu": ["home", "iv"],
+      "code": "0011",
+      "tags": ["travel", "road", "adventure", "driving"]
+    },
+    {
+      "id": 12,
+      "title": "Blooming Garden",
+      "image": "https://picsum.photos/id/80/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/80/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-04"
+      },
+      "menu": ["home", "iv"],
+      "code": "0012",
+      "tags": ["flowers", "garden", "spring", "colorful"]
+    },
+    {
+      "id": 13,
+      "title": "Hidden Forest Cabin",
+      "image": "https://picsum.photos/id/85/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/85/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-03"
+      },
+      "status": "featured",
+      "menu": ["home", "iv"],
+      "code": "0013",
+      "tags": ["cabin", "forest", "cozy", "architecture"]
+    },
+    {
+      "id": 14,
+      "title": "Majestic Waterfall",
+      "image": "https://picsum.photos/id/90/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/90/1200/800",
+          "https://picsum.photos/id/91/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-02"
+      },
+      "status": "trending",
+      "menu": ["home", "iv"],
+      "code": "0014",
+      "tags": ["waterfall", "nature", "powerful", "scenic"]
+    },
+    {
+      "id": 15,
+      "title": "Foggy Mountain Trail",
+      "image": "https://picsum.photos/id/100/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/100/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2024-01-01"
+      },
+      "menu": ["home", "iv"],
+      "code": "0015",
+      "tags": ["mountains", "fog", "hiking", "moody"]
+    },
+    {
+      "id": 16,
+      "title": "Starry Night Sky",
+      "image": "https://picsum.photos/id/110/800/600",
+      "item": {
+        "images": [
+          "https://picsum.photos/id/110/1200/800",
+          "https://picsum.photos/id/111/1200/800"
+        ],
+        "htmlContent": "<h3 class='text-lg font-bold mb-3 border-b border-gray-200 dark:border-slate-700 pb-2 text-gray-800 dark:text-gray-100'>Download Links</h3><div class='space-y-3'><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Pics:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div><div class='flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3'><span class='font-bold min-w-[70px] text-gray-900 dark:text-gray-100'>Videos:</span><a href='https://downlodelink.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline break-all font-mono text-sm'>https://downlodelink.com</a></div></div>",
+        "date": "2023-12-31"
+      },
+      "status": "hot",
+      "menu": ["home", "iv"],
+      "code": "0016",
+      "tags": ["space", "stars", "night", "galaxy"]
+    }
+  ]
+}
